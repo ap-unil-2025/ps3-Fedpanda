@@ -44,8 +44,8 @@ def analyze_numbers(numbers):
     Returns:
         dict: Dictionary with analysis results, or None if list is empty
     """
-    #if not numbers:
-    #    return None
+#    if not numbers:
+#        return None
 
     analysis = {}
 
@@ -85,11 +85,11 @@ def display_analysis(analysis):
     # TODO: Display all analysis results in a nice format
     # Example:
     # Count: 5
-    # Sum: 25        print(f"{i}: {analysis[i]}")
-
+    # Sum: 25
     # Average: 5.00
     # etc.
     for i in analysis:
+        print(f"{i}: {analysis[i]}")
 
 
 def main():
