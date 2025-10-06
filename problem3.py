@@ -65,8 +65,8 @@ def analyze_numbers(numbers):
     analysis['count'] = len(numbers)
     analysis['sum'] = sum(numbers)
     analysis['average'] = analysis['sum']/analysis['count']
-    analysis['min'] = min(numbers)
-    analysis['max'] = max(numbers)
+    analysis['minimum'] = min(numbers)
+    analysis['maximum'] = max(numbers)
     analysis['even_count'] = len(list(filter(lambda x: x%2==0,numbers)))
     analysis['odd_count'] = len(list(filter(lambda x: x%2==1,numbers)))
     return analysis
