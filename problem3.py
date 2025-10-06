@@ -18,11 +18,14 @@ def get_numbers_from_user():
         # TODO: Check if user typed 'done'
         # TODO: Try to convert to float and add to list
         # TODO: Handle invalid input gracefully
-        imp = input("Write 'done' to end the loop: ")
-        if imp == 'done':
+        imp = input("Enter a number or 'done': ")
+        if imp.lower() == 'done':
             break
-        elif isinstance(int(imp),(int,float)):
-            numbers.append(int(imp))
+        try:
+            number = float(imp)   # use float to accept decimal numbers
+            numbers.append(number)
+        except ValueError:
+            print("Invalid input, please enter a number or 'done'.")
 
     return numbers
 
