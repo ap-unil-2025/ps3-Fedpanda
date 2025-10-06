@@ -1,0 +1,16 @@
+5a46780 Trigger autograder
+9642cdd Trigger autograder
+7fea13a another change4
+d80fa19 another change3
+496830e another change2
+d30be3c another change
+a5a0f88 retarded autograder
+22e17cc problem 2 changed
+b1226f4 corrected pr2
+628bfa2 Add solved exercisesto the right repo
+46c65a1 Update README.md
+8804987 Merge pull request #1 from ap-unil-2025/main
+7bcb689 Add GitHub Classroom autograding configuration
+eefbce8 Update README.md
+ceecc66 Update README.md
+2dc2daa Initial commit
