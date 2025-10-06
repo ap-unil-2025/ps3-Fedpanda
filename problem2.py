@@ -54,9 +54,9 @@ def temperature_converter():
     temp = int(input("Temperature value: "))
     current_unit = input("Current unit: ")
     if current_unit == 'F':
-        return f"{fahrenheit_to_celsius(temp)}.2f"
+        return fahrenheit_to_celsius(temp)
     if current_unit == 'C':
-        return f"{celsius_to_fahrenheit(temp).2f"
+        return celsius_to_fahrenheit(temp)
     else:
         return ("unknown")
 
