@@ -59,13 +59,13 @@ def analyze_numbers(numbers):
     if not numbers:
         return None
     #dic = dict()
-    analysis['Count'] = len(numbers)
-    analysis['Sum'] = sum(numbers)
-    analysis['Average'] = analysis['Sum']/analysis['Count']
-    analysis['Min'] = min(numbers)
-    analysis['Max'] = max(numbers)
-    analysis['Even_count'] = len(list(filter(lambda x: x%2==0,numbers)))
-    analysis['Odd_count'] = len(list(filter(lambda x: x%2==1,numbers)))
+    analysis['count'] = len(numbers)
+    analysis['sum'] = sum(numbers)
+    analysis['average'] = analysis['sum']/analysis['count']
+    analysis['min'] = min(numbers)
+    analysis['max'] = max(numbers)
+    analysis['even_count'] = len(list(filter(lambda x: x%2==0,numbers)))
+    analysis['odd_count'] = len(list(filter(lambda x: x%2==1,numbers)))
     return analysis
 
 
